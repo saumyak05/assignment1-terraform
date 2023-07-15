@@ -15,10 +15,10 @@ variable "OS_characterstics" {
   }
 }
 variable "pub_key" {
-  default = "/Users/saumya/.ssh/id_rsa.pub"
+  default = "~/.ssh/id_rsa.pub"
 }
 variable "pvt_key" {
-  default = "/Users/saumya/.ssh/id_rsa"
+  default = "~/.ssh/id_rsa"
 }
 variable "vm_size" {
   default = "Standard_B1ms"

@@ -60,5 +60,5 @@ variable "win_machine_size" {
   default = "Standard_B1ms"
 }
 variable "pvt_key" {
-  default = "/Users/saumya/.ssh/id_rsa"
+  default = "~/.ssh/id_rsa"
 }
